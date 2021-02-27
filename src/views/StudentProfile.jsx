@@ -106,7 +106,7 @@ function StudentsInfo(props) {
         body: JSON.stringify(object)
       };
 
-      let response = await fetch(`${ROOT_URL}/api/createStudent`, requestOptions);
+      let response = await fetch(`${ROOT_URL}/api/createStudent`, requestOptions); //To Create Student
       if (response.status === 201) {
         alert("Saved Successfully");
         exit();
@@ -126,7 +126,7 @@ function StudentsInfo(props) {
         body: JSON.stringify(object)
       };
 
-      let response = await fetch(`${ROOT_URL}/api/studenUpdate/` + student.id, requestOptions);
+      let response = await fetch(`${ROOT_URL}/api/studenUpdate/` + student.id, requestOptions);//To Update Student
       if (response.status === 200) {
         alert("Updated Successfully");
         exit();
@@ -145,7 +145,7 @@ function StudentsInfo(props) {
         headers: { 'Content-Type': 'application/json' }
       };
 
-      let response = await fetch(`${ROOT_URL}/api/studentDelete/` + student.id, requestOptions);
+      let response = await fetch(`${ROOT_URL}/api/studentDelete/` + student.id, requestOptions);//To Delete Student
       if (response.status === 200) {
         alert("Deleted Successfully");
         exit();

@@ -15,7 +15,7 @@ function Dashboard(props) {
   const createLegend = (json) => {
     var legend = [];
     for (var i = 0; i < json["names"].length; i++) {
-      var type = "fa fa-circle text-" + json["types"][i];
+      var type = "fa fa-circle text-" + json["types"][i]; //Pie Chart
       legend.push(<i className={type} key={i} />);
       legend.push(" ");
       legend.push(json["names"][i]);
@@ -28,7 +28,7 @@ function Dashboard(props) {
   useEffect(() => {
     (async function getList() {
       try {
-        let response = await fetch(`${ROOT_URL}/api/studentList`);
+        let response = await fetch(`${ROOT_URL}/api/studentList`); //To get Student Count
         let jsonData = await response.json();
         setStudentCount(jsonData.length);
       } catch (error) {

@@ -14,7 +14,7 @@ function StudentList(props) {
   useEffect(() => {
     (async function getList() {
       try {
-        let response = await fetch(`${ROOT_URL}/api/studentList`);
+        let response = await fetch(`${ROOT_URL}/api/studentList`);// To Get Student List
         let jsonData = await response.json();
         setData(jsonData);
       } catch (error) {

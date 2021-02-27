@@ -8,7 +8,7 @@ export async function loginUser(dispatch, loginPayload) {
 
     try {
         dispatch({ type: 'REQUEST_LOGIN' });
-        let response = await fetch(`${ROOT_URL}/login`, requestOptions);
+        let response = await fetch(`${ROOT_URL}/login`, requestOptions); //login api
         let data = await response.json();
         if (data.user) {
             if (data.user.email === loginPayload.email && data.user.password === loginPayload.password) {

@@ -19,7 +19,7 @@ function Message(props) {
   useEffect(() => {
     (async function getList() {
       try {
-        let response = await fetch(`${ROOT_URL}/api/getPhoneNumbers`);
+        let response = await fetch(`${ROOT_URL}/api/getPhoneNumbers`);//To Get PhoneNumbers
         let jsonData = await response.json();
 
         let phone = [];
