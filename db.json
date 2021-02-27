@@ -1,0 +1,110 @@
+{
+  "login": {
+    "user": {
+      "id": 1,
+      "email": "admin",
+      "password": "admin"
+    },
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxfQ.5b0YUvXu9IFCI4kqzNAfrnuA2lSMp8XtezIZTfQYH4k",
+    "loading": false,
+    "errorMessage": null
+  },
+  "studentList": [
+    {
+      "roll": "1A1002",
+      "name": "Minerva Hooper1",
+      "gender": "Male",
+      "dob": "2001-01-01",
+      "studentClass": 1,
+      "section": "A",
+      "address": "USA",
+      "phone": "1234567891",
+      "attendance": "75%",
+      "id": 2
+    },
+    {
+      "roll": "3A3002",
+      "name": "Doris Greene",
+      "gender": "Female",
+      "dob": "2004-07-14",
+      "studentClass": 3,
+      "section": "A",
+      "address": "USA",
+      "phone": "1234567894",
+      "attendance": "80%",
+      "id": 5
+    },
+    {
+      "roll": "1B1002",
+      "name": "Rakesh",
+      "gender": "Male",
+      "dob": "1997-05-07",
+      "studentClass": 1,
+      "section": "B",
+      "address": "aaaa",
+      "phone": "9887888",
+      "attendance": "10",
+      "id": 6
+    },
+    {
+      "roll": "2B2002",
+      "name": "Arun",
+      "gender": "Male",
+      "dob": "1997-05-28",
+      "studentClass": 2,
+      "section": "B",
+      "address": "aaaaa",
+      "phone": "9787",
+      "attendance": "80%",
+      "id": 7
+    },
+    {
+      "roll": "3B3003",
+      "name": "Lakshmi",
+      "gender": "Female",
+      "dob": "1984-05-3",
+      "studentClass": 3,
+      "section": "A",
+      "address": "mmmm",
+      "phone": "87555",
+      "attendance": "",
+      "id": 8
+    },
+    {
+      "roll": "6A6001",
+      "name": "Nivi",
+      "gender": "Male",
+      "dob": "2008-03-27",
+      "studentClass": 6,
+      "section": "A",
+      "address": "ccccc",
+      "phone": "99555",
+      "attendance": "",
+      "id": 9
+    },
+    {
+      "roll": "2A2006",
+      "name": "xxxx",
+      "gender": "Male",
+      "dob": "2019-06-13",
+      "studentClass": 2,
+      "section": "A",
+      "address": "bbbb",
+      "phone": "8788",
+      "attendance": "",
+      "id": 10
+    },
+    {
+      "roll": "7A1001",
+      "name": "pppp",
+      "gender": "Male",
+      "dob": "2021-02-26",
+      "studentClass": 7,
+      "section": "A",
+      "address": "mmmm",
+      "phone": "98877",
+      "attendance": "",
+      "id": 11
+    }
+  ]
+}
